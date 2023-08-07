@@ -6,10 +6,10 @@
 DHT dht(DHTPIN, DHTTYPE);
 float temperature, humidity; //initialise temperature/humidity variables to record
 WiFiClient client;
-unsigned long myChannelNumber =  2215009;//Your Channel Number (Without Brackets)
-const char* myWriteAPIKey = "Y59SZPERQY3GEIP7"; //Your Write API Key
-unsigned long evilChannelNumber = 2230832;//the attacker's channel number
-const char* evilWriteAPIKey = "6FTXZBZ7JDLY6RD1";//the attacker's write API key
+unsigned long myChannelNumber =  -;//Your Channel Number (Without Brackets)
+const char* myWriteAPIKey = "-"; //Your Write API Key
+unsigned long evilChannelNumber = -;//the attacker's channel number
+const char* evilWriteAPIKey = "-";//the attacker's write API key
 const char *SSID = "fyp";
 const char *PASSWORD = "Fyp123456";
 //const char *SSID = "fyprivate";
