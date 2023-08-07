@@ -10,12 +10,12 @@ unsigned long myChannelNumber =  -;//Your Channel Number (Without Brackets)
 const char* myWriteAPIKey = "-"; //Your Write API Key
 unsigned long evilChannelNumber = -;//the attacker's channel number
 const char* evilWriteAPIKey = "-";//the attacker's write API key
-const char *SSID = "fyp";
-const char *PASSWORD = "Fyp123456";
-//const char *SSID = "fyprivate";
-//const char *PASSWORD = "fyp7890"; //setting up a private network for the IoT device to not be in the same network as everyone else, in order to swap, uncomment these 2 lines while commenting the 2 above.
-String projectTitle = "C300 - Implementing Secure IOT Arduino Laboratory";
-String projectDesc = "FYP for Lee Zhang Hui, Sidhant Ram Deepak and Chua Wei En Fabian Matthias";
+const char *SSID = "-";
+const char *PASSWORD = "-";
+//const char *SSID = "-";
+//const char *PASSWORD = "-"; //setting up a private network for the IoT device to not be in the same network as everyone else, in order to swap, uncomment these 2 lines while commenting the 2 above.
+String projectTitle = "- - Implementing Secure IOT Arduino Laboratory";
+String projectDesc = "-";
 #include "Identification.h"
 
 const float tempMin = 34.00;
